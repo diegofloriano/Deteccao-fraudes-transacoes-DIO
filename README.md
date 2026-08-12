@@ -17,7 +17,7 @@ O objetivo deste projeto é aplicar o pipeline completo de aprendizado de máqui
 * **Linguagem:** Python
 * **Análise e Manipulação de Dados:** Pandas, NumPy
 * **Visualização de Dados:** Matplotlib, Seaborn
-* **Machine Learning:** Scikit-Learn
+* **Machine Learning & Explicabilidade:** Scikit-Learn, XGBoost, SHAP
 * **Balanceamento de Dados:** Imbalanced-Learn (`imblearn`)
 * **Ambiente de Execução:** Jupyter Notebook
 
@@ -49,10 +49,11 @@ Deteccao-fraudes-transacoes-DIO/
    * Aplicação de técnicas de reamostragem (*Undersampling* e/ou *Oversampling/SMOTE*) no conjunto de treino para evitar que os modelos apresentem viés em favor da classe majoritária.
 
 4. **Treinamento e Modelagem:**
-   * Treinamento e validação de algoritmos de classificação (Regressão Logística, Árvores de Decisão e Random Forest).
+   * Treinamento e validação de algoritmos de classificação (Regressão Logística, Random Forest e XGBoost).
 
-5. **Avaliação de Métricas:**
+5. **Avaliação de Métricas e Explicabilidade:**
    * Análise focada em **Recall** (sensibilidade para capturar o maior número possível de fraudes), **Precision**, **F1-Score**, **Matriz de Confusão** e **AUC-ROC**.
+   * Análise de importância de atributos e explicabilidade do modelo com **SHAP**.
 
 ---
 
@@ -70,16 +71,19 @@ Deteccao-fraudes-transacoes-DIO/
    git clone [https://github.com/diegofloriano/Deteccao-fraudes-transacoes-DIO.git](https://github.com/diegofloriano/Deteccao-fraudes-transacoes-DIO.git)
    cd Deteccao-fraudes-transacoes-DIO
    ```
+
 2. **Instalar as dependências:**
    ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn jupyter
+   pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn xgboost shap jupyter
    ```
+
 3. **Iniciar o Jupyter Notebook:**
    ```bash
    jupyter notebook Deteccao_fraudes_transacoes_DIO.ipynb
    ```
 
+---
+
 ## ✒️ Autor
 
-Desenvolvido por Diego FLoriano.
-
+Desenvolvido por **Diego Floriano**.
