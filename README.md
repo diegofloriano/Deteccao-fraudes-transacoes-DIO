@@ -25,11 +25,13 @@ O objetivo deste projeto é aplicar o pipeline completo de aprendizado de máqui
 
 ## 📂 Estrutura do Repositório
 
+```plaintext
 Deteccao-fraudes-transacoes-DIO/
 │
 ├── data/                  # Datasets utilizados na análise
-├── notebook/             # Análise exploratória e modelagem
+├── notebook/              # Análise exploratória e modelagem
 └── README.md              # Documentação do projeto
+```
 
 ---
 
@@ -76,3 +78,8 @@ Deteccao-fraudes-transacoes-DIO/
    ```bash
    jupyter notebook Deteccao_fraudes_transacoes_DIO.ipynb
    ```
+
+## ✒️ Autor
+
+Desenvolvido por Diego FLoriano.
+
