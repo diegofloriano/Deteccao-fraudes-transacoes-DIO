@@ -28,7 +28,6 @@ O objetivo deste projeto é aplicar o pipeline completo de aprendizado de máqui
 ```plaintext
 Deteccao-fraudes-transacoes-DIO/
 │
-├── data/                  # Datasets utilizados na análise
 ├── notebook/              # Análise exploratória e modelagem
 └── README.md              # Documentação do projeto
 ```
