@@ -67,7 +67,7 @@ Deteccao-fraudes-transacoes-DIO/
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/diegofloriano/Deteccao-fraudes-transacoes-DIO.git](https://github.com/diegofloriano/Deteccao-fraudes-transacoes-DIO.git)
+   git clone https://github.com/diegofloriano/Deteccao-fraudes-transacoes-DIO.git
    cd Deteccao-fraudes-transacoes-DIO
    ```
 
@@ -78,7 +78,7 @@ Deteccao-fraudes-transacoes-DIO/
 
 3. **Iniciar o Jupyter Notebook:**
    ```bash
-   jupyter notebook Deteccao_fraudes_transacoes_DIO.ipynb
+   jupyter notebook notebook/Deteccao_fraudes_transacoes.ipynb
    ```
 
 ---
